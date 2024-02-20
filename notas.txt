@@ -1,0 +1,42 @@
+#to create virtual env
+conda create --name chat-with-website python=3.10
+
+#to activate virtual env
+conda activate chat-with-website
+
+python src/app.py
+
+#to run localhost
+cd chat_web
+streamlit run src/app.py
+
+#package to install
+pip install streamlit langchain langchain-openai beautifulsoup4 python-dotenv chromadb
+
+(ya no)conda install anaconda::beautifulsoup4
+
+#github
+https://github.com/alejandro-ao/chat-with-websites/blob/master/src/app.py
+
+C:\Users\yoshi\anaconda3\Scripts\conda.exe
+C:\Users\yoshi\anaconda3\python.exe
+
+# para crear el archivo requirement txt
+conda activate chat-with-website
+pip install pipreqs
+pipreqs
+
+# para pasar a requirement algun package q no haya sido creado
+# jalar toda la lista de package instalados
+pip freeze 
+
+#----- Guardar en Github -------------------#
+git remote -v
+git status
+git add .
+git commit -m "initial push"
+git push -u repo_aiweb master
+
+# crear el repositorio ----------------#
+git init
+git remote add repo_aiweb https://github.com/yoshiokiyamusu/chat_web.git
