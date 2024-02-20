@@ -40,3 +40,6 @@ git push -u repo_aiweb master
 # crear el repositorio ----------------#
 git init
 git remote add repo_aiweb https://github.com/yoshiokiyamusu/chat_web.git
+
+#----Render Deployment -------
+start command (es bueno indicar en que puerto tiene q leer): streamlit run src/app.py --server.port 8080
